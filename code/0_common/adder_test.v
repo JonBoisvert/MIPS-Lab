@@ -45,6 +45,26 @@ module adder_test;
 
 		// Wait 100 ns for global reset to finish
 		#100;
+		
+		Ain = 2;
+		Bin = 2;
+		
+		#100
+		
+		Ain = 1;
+		Bin = 0;
+		
+		#100
+		
+		Ain = 1;
+		Bin = 1;
+		
+		#100
+		
+		Ain = 10;
+		Bin = 9;
+		
+		#100
         
 		// Add stimulus here
 
